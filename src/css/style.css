@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.app-container{
+    width: fit-content;
+    margin: 50px auto;
+}
+#width, #height{
+    width: 50px;
+}
+#rand{
+    margin: 0 20px;
+}
+.app-field-controller{
+    display: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.app-field-controller p{
+    margin-bottom: 20px;
+}
+.app-input-container, .app-field-controller{
+    width: fit-content;
+    margin: 20px auto;
+}
+.table-field{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-field tr td{
+    width: 6px;
+    height: 6px;
+}
+.alive{
+    background-color: black;
+}
+.dead{
+    background-color: white;
+}

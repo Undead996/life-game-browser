@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
     <script src="src/script/app.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h2>Открой консоль</h2>
-    <div id="test"></div>
+    <div class="app-container">
+        <div class="app-input-container">
+            <span>ширина: </span><input id="width" value="100" type="number" min="20" max="150">
+            <span>высота: </span><input id="height" value="80" type="number" min="20" max="150">
+            <button id="set">создать</button>
+            <button id="rand">рандом</button>
+        </div>
+        <div class="app-field-controller">
+            <p>редактируй поле кликами</p>
+            <button id="start">запустить</button>
+            <button id="stop">остановить</button>
+            <button id="drop">сбросить</button>
+        </div>
+        <div id="app-field-container">
+
+        </div>
+    </div>
 </body>
 </html>
